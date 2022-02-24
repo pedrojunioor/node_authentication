@@ -12,4 +12,4 @@ routes.get('/users', userController.getUsers )
 routes.put('/user/:id', userController.editUser)
 routes.delete('/user/:id', userController.deleteUser)
 
-module.exports = routes
+module.exports = routes 
